@@ -6,7 +6,7 @@ const quotation = document.querySelector("#quote");
 
 //const loginBtn = document.getElementById("loginBtn");
 const imgTag = document.createElement("img");
-imgTag.src = `img/bgImg.jpg`;
+imgTag.src = `./img/bgImg.jpg`;
 imgTag.id = "backgroundImg";
 document.body.appendChild(imgTag);
 
@@ -19,7 +19,7 @@ function onLoginSubmit(event) {
     if(username === "Rachel" ||username === "rachel" ){
       const imgs = ["wp01.jpg","wp02.jpg","wp03.jpg","wp04.jpg"];
       const randomImg = imgs[Math.floor(Math.random() * imgs.length)];
-      imgTag.src = `img/${randomImg}`;
+      imgTag.src = `./img/${randomImg}`;
       document.body.appendChild(imgTag);
 
       greeting.innerText = `Hello, ${username} !`;
