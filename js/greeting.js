@@ -8,8 +8,8 @@ const quotation = document.querySelector("#quote");
 const imgTag = document.createElement("img");
 // <img src="https://내아이디.github.io/리포지토리명/img/image.jpg">
 // https://github.com/racheljeong/momentum/tree/master/img
-//imgTag.src = `./img/bgImg.jpg`;
-imgTag.src = `https://github.com/racheljeong/momentum/blob/master/img/bgImg.jpg`;
+imgTag.src = `./img/bgImg.jpg`;
+//imgTag.src = `https://github.com/racheljeong/momentum/blob/master/img/bgImg.jpg`;
 imgTag.id = "backgroundImg";
 document.body.appendChild(imgTag);
 
