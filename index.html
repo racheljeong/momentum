@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Rachel World</title>
+</head>
+<body>
+    <div id="geoContainer">
+        <span id="weather"></span>
+        <span id="city"></span>
+    </div>
+    <div>
+        <h1 id="clock"></h1>
+    </div>
+    <form id="login-form">
+        <input
+        required
+        maxlength="15"
+        type="text"
+        placeholder="What is your name?"
+      />
+      <input type="submit" value="Log In" id="loginBtn"/>
+    </form>
+    <h1 class="hidden" id="greeting"></h1>
+    <div id="todoContainer">   
+        <form id="todo-form" class="hidden">
+            <input type="text" placeholder="Let's to do!" required />
+        </form>
+        <ul id="todo-list"></ul>
+        <div id="quote" class="hidden">
+            <span id="quoteOne"></span>
+            <span id="quoteBy"></span>
+        </div>
+    </div>
+    
+   
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="potato.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <!-- <script src="js/background.js"></script> -->
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
