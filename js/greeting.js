@@ -6,10 +6,7 @@ const quotation = document.querySelector("#quote");
 
 //const loginBtn = document.getElementById("loginBtn");
 const imgTag = document.createElement("img");
-// <img src="https://내아이디.github.io/리포지토리명/img/image.jpg">
-// https://github.com/racheljeong/momentum/tree/master/img
 imgTag.src = `./img/bgImg.jpg`;
-//imgTag.src = `https://github.com/racheljeong/momentum/blob/master/img/bgImg.jpg`;
 imgTag.id = "backgroundImg";
 document.body.appendChild(imgTag);
 
@@ -19,7 +16,7 @@ function onLoginSubmit(event) {
     event.preventDefault();
     const username = loginInput.value;
 
-    if(username === "Rachel" ||username === "rachel" ){
+    if(username === "Rachel" ||username === "rachel" ||username === "RACHEL"){
       const imgs = ["wp01.jpg","wp02.jpg","wp03.jpg","wp04.jpg"];
       const randomImg = imgs[Math.floor(Math.random() * imgs.length)];
       imgTag.src = `./img/${randomImg}`;
